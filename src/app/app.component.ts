@@ -63,4 +63,18 @@ export class AppComponent {
 			icon: "cart"
 		}
 	]
+	steps: Object[] = [
+		{
+			no: 1,
+			desc: "Choose the subscription plan that best fits your needs and sign up today."
+		},
+		{
+			no: 2,
+			desc: "Order your delicious meal using our mobile app or website. Or you can even call us!"
+		},
+		{
+			no: 3,
+			desc: "Enjoy your meal after less than 20 minutes. See you the next time!"
+		},
+	]
 }
