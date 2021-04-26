@@ -190,6 +190,12 @@ header{
     color: #e67e22;
 }
 
+/* ------------------ FEATURES ------------------ */
+
+.section-features .long-copy{
+    margin-bottom: 30px;
+}
+
 /* ------------------ MEALS ------------------ */
 
 .meals-showcase{
@@ -206,9 +212,23 @@ header{
 .meal-photo{
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background-color: #000;
 }
 
 .meal-photo img{
+    opacity: 0.4;
+    transform: scale(1.25);
     width: 100%;
     height: auto;
+    transition: transform 0.5s, opacity 0.5s;
 }
+.meal-photo img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.section-meals{
+    padding: 0;
+}
+
